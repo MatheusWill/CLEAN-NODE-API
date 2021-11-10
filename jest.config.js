@@ -4,8 +4,8 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts',
     '!<rootDir>/src/**/*-protocols.ts',
-    '!**/protocols/**'
-    // '!<rootDir>/src/main/**'
+    '!**/protocols/**',
+    '!<rootDir>/src/main/**'
   ],
   coverageDirectory: 'coverage',
   // coverageProvider: 'babel',
